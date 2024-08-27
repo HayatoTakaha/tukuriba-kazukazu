@@ -54,3 +54,23 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'devise'
+gem 'rails_admin'
+# カレンダー表示・予約機能関連
+gem 'simple_calendar'
+# 画像アップロード関連
+gem 'carrierwave', '~> 2.0'
+gem 'mini_magick'
+# フロントエンド関連
+gem 'bootstrap', '~> 5.1'
+gem 'jquery-rails'
+# フォーム・問い合わせ関連
+gem 'simple_form'
+# 管理者用の機能
+gem 'rails_admin'
+gem 'pundit'
+gem 'dotenv-rails'
+gem 'annotate'
+gem 'better_errors'
+gem 'binding_of_caller'
+gem 'fullcalendar-rails'
