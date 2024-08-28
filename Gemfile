@@ -67,10 +67,11 @@ gem 'jquery-rails'
 # フォーム・問い合わせ関連
 gem 'simple_form'
 # 管理者用の機能
-gem 'rails_admin'
 gem 'pundit'
 gem 'dotenv-rails'
 gem 'annotate'
 gem 'better_errors'
 gem 'binding_of_caller'
 gem 'fullcalendar-rails'
+gem 'google-api-client', '~> 0.53.0'
+gem 'omniauth-google-oauth2'
